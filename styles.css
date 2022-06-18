@@ -1,0 +1,216 @@
+/*-General-*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background: url("bg.jpg") no-repeat center center fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    height: auto;
+}
+
+/*-Font & title elements-*/
+h1, h2, h3, a, th .btn-acceuil p, input[type=submit], input[type=button], th {
+    font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
+}
+
+p, h4, .champ label, ::placeholder, td {
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.btn-acceuil p {
+    font-size: 20px;
+
+}
+
+a {
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/*-Form style-*/
+
+form {
+    margin-top: 20px;
+}
+
+.champ {
+    padding: 5px 0;
+}
+
+.champ label {
+    max-width: 200px;
+    text-align: right;
+}
+
+.champ label, ::placeholder {
+    display: inline-block;
+    width: 350px;
+}
+
+.champ input {
+    width: 300px;
+    border: 2px solid #79a32d;
+    padding: 10px 15px;
+}
+
+.champ input:focus {
+    background-color: #7aa32d47;
+    border: #79a32d;
+}
+
+input[type=submit], input[type=button] {
+    border-radius: 5px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 10px;
+    cursor: pointer;
+    width: 200px;
+}
+
+input[type=submit] {
+    background-color: #79a32d;
+    border: 2px solid #79a32d;
+    color: white;
+}
+
+input[type=button] {
+    background-color: #fff;
+    border: 2px solid #79a32d;
+    color: #79a32d;
+    font-weight: 800;
+}
+
+/*-Table-*/
+
+table {
+    border: #79a32d solid 5px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    background-color: #79a32d;
+    color: white;
+    font-size: 18px;
+}
+
+td {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    border-right: solid 1px #79a32d;
+    border-left: solid 1px #79a32d;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*-Class-*/
+.container {
+    width: 55vw;
+    min-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.link {
+    color: #79a32d;
+}
+
+.link:hover {
+    color: #587438;
+}
+
+.green {
+    color: #79a32d;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.btn-acceuil {
+    margin: 20px 0;
+    width: 200px;
+    padding: 20px;
+    border-radius: 3px;
+    color: #000;
+}
+
+.btn-acceuil:hover {
+    background-color: #79a32d;
+    color: #fff;
+}
+
+.acceuil-flex {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*-Header & footer-*/
+header {
+    background-color: #79a32d;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+.header-title {
+    padding-left: 50px;
+}
+
+footer {
+    padding: 5px 0 10px 0;
+}
+
+footer h3 {
+    color: #fff;
+    text-align: center;
+}
+
+/*-Id-*/
+#logo img {
+    display: block;
+}
